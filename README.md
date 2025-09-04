@@ -27,6 +27,7 @@ Ali Tas araci kullaniyor
 Veli Tas araci kullaniyor  
 ----------- Proxy kulanimindan sonra -----------  
 Ali Tas araci kullaniyor  
-Bu kisi araba kullanamaz  
+Bu kisi araba kullanamaz
+```
 
 Bu örnekte Proxy Design Pattern, erişim kontrolü amacıyla kullanılmıştır.
