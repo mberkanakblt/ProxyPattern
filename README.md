@@ -20,12 +20,13 @@ Person → Arabayı sürmek isteyen kişiyi temsil eder.
 
 Proxy (main) → Uygulamanın başlangıç noktası.
 
+```
 🔹 Çıktı (Output)
 
-  Ali Tas araci kullaniyor
-  Veli Tas araci kullaniyor
-  ----------- Proxy kulanimindan sonra -----------
-  Ali Tas araci kullaniyor
-  Bu kisi araba kullanamaz
+Ali Tas araci kullaniyor  
+Veli Tas araci kullaniyor  
+----------- Proxy kulanimindan sonra -----------  
+Ali Tas araci kullaniyor  
+Bu kisi araba kullanamaz  
 
 Bu örnekte Proxy Design Pattern, erişim kontrolü amacıyla kullanılmıştır.
