@@ -29,5 +29,19 @@ Veli Tas araci kullaniyor
 Ali Tas araci kullaniyor  
 Bu kisi araba kullanamaz
 ```
+## 🔹 Nasıl Çalışır?
 
+1. `main` içinde önce doğrudan **Vehicle** sınıfı kullanılır.  
+   - Ali’nin ehliyeti var → Aracı sürebiliyor.  
+   - Veli’nin ehliyeti yok → Ama yine de aracı sürebiliyor (çünkü kontrol yok).  
+
+2. Daha sonra **VehicleProxy** kullanılır.  
+   - **Proxy burada devreye girer.**  
+   - Kişinin ehliyeti olup olmadığını **VehicleProxy** kontrol eder.  
+   - Eğer ehliyeti varsa → Proxy, isteği gerçek sınıf olan **Vehicle**’a yönlendirir.  
+   - Eğer ehliyeti yoksa → Proxy isteği engeller ve "Bu kişi araba kullanamaz" çıktısını verir.  
+
+3. Böylece Proxy, gerçek nesneye erişmeden önce **ekstra bir kontrol katmanı** sağlar.  
+   - Görevi: **“Gerçek nesneye giden yolu filtrelemek ve gerekirse erişimi engellemek.”**
+   - 
 Bu örnekte Proxy Design Pattern, erişim kontrolü amacıyla kullanılmıştır.
