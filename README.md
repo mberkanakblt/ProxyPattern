@@ -20,18 +20,9 @@ Person → Arabayı sürmek isteyen kişiyi temsil eder.
 
 Proxy (main) → Uygulamanın başlangıç noktası.
 
-```
-🔹 Çıktı (Output)
-
-Ali Tas araci kullaniyor  
-Veli Tas araci kullaniyor  
------------ Proxy kulanimindan sonra -----------  
-Ali Tas araci kullaniyor  
-Bu kisi araba kullanamaz
-```
 ## 🔹 Nasıl Çalışır?
 
-1. `main` içinde önce doğrudan **Vehicle** sınıfı kullanılır.  
+1. Vehicle doğrudan kullanılır:
    - Ali’nin ehliyeti var → Aracı sürebiliyor.  
    - Veli’nin ehliyeti yok → Ama yine de aracı sürebiliyor (çünkü kontrol yok).  
 
@@ -43,5 +34,15 @@ Bu kisi araba kullanamaz
 
 3. Böylece Proxy, gerçek nesneye erişmeden önce **ekstra bir kontrol katmanı** sağlar.  
    - Görevi: **“Gerçek nesneye giden yolu filtrelemek ve gerekirse erişimi engellemek.”**
-   - 
+
+```
+🔹 Çıktı (Output)
+
+Ali Tas araci kullaniyor  
+Veli Tas araci kullaniyor  
+----------- Proxy kulanimindan sonra -----------  
+Ali Tas araci kullaniyor  
+Bu kisi araba kullanamaz
+```
+  
 Bu örnekte Proxy Design Pattern, erişim kontrolü amacıyla kullanılmıştır.
