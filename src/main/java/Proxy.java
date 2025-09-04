@@ -1,5 +1,3 @@
-package proxy;
-
 /**
  * Proxy sınıfı uygulamanın başlangıç noktasıdır.
  * Burada önce doğrudan 'Vehicle' sınıfı kullanılır, sonra 'VehicleProxy' üzerinden kullanım gösterilir.

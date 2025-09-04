@@ -1,4 +1,3 @@
-package proxy;
 /**
  *  Aşağıdaki Person sınıfı bir kişinin temel bilgilerini tutmaktadır.
  * */

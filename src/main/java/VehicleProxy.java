@@ -1,5 +1,3 @@
-package proxy;
-
 /**
  * VehicleProxy sınıfı, IVehicle arayüzünü implement eder ancak doğrudan işlem yapmaz.
  * Önce gerekli kontrolleri yapar, ardından gerekirse gerçek sınıfa (Vehicle) yönlendirir.
